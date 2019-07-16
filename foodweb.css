@@ -1,0 +1,203 @@
+header{
+    background-image : url("./images/food.jpg");
+    height:600; 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navigation{
+    background: -webkit-linear-gradient(black,transparent);
+    font-size: 20px;
+    border: none;
+    color: whitesmoke;
+    
+}
+
+.navbar-nav>li>a{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+ #myNavbar a:hover{
+background-color: #fffaaaaa;
+transition: 1s;
+}
+
+#myNavbar{
+   position: absolute;
+   width: 100%;
+   z-index: 999;
+   
+}
+.icon-bar{
+    background-color: #676767
+}
+.zai{
+ color: rgb(255, 208, 0);
+}
+.header-heading{
+    margin-top: 100px;margin-bottom: 100px;text-align: center}
+
+  .head-heading{
+      color: whitesmoke;font-size: 60px;
+  }  
+  .decorate{
+      width: 300px;
+  }
+  .btn1{
+      background-color: #000;
+      color: whitesmoke;
+  }
+  .btn2{
+    color: #000;
+   background-color: whitesmoke;
+}
+  .btn1:hover{
+     background-color: #000;border: none;color: whitesmoke 
+  }
+  .btn2:hover{
+    background-color: #999;border: none;color: whitesmoke 
+ }
+ /*cooking mid section*/
+ .mid-section{
+text-align: center;
+padding-top: 30px;
+background-size: cover;
+color: #888;
+ }
+ .cook{
+     margin-top: 40px;
+ }
+/*ingrediant mid section*/
+#ingrediant{
+    background-image: url("./images/ingredent.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 650px;
+    background-size: cover;
+}
+
+#ingre-content{
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));;
+    text-align: center;
+    color: whitesmoke;
+   margin: 50px 20px 20px 50px;
+   padding: 50px 40px 80px 20px;
+   height: 500px;
+   width: 500px;
+ 
+}
+
+#picture{
+    margin-top: 20%;
+    margin-left: 30px
+}
+/* menu section*/
+.menu-pic{
+    background-image: url("./images/about-background.jpg");
+    
+}
+menu.h2{
+    
+    font-size: 250%;
+    font-family: 'Yeseva One', cursive;   
+}
+h4.taza{
+    border-bottom:1px  rgba(221, 178, 59, 0.753) solid;
+    color: rgba(228, 182, 58, 0.753);
+    font-size: 150%;
+    font-family: 'Yeseva One', cursive;  
+}
+.salad{
+   color:rgb(230, 198, 59);
+text-align: center;
+font-family: 'Yeseva One', cursive;
+
+}
+.appitis{
+    color:  rgb(230, 198, 59);
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+ }
+ .start{
+    color:  rgb(230, 198, 59);
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+ }
+ .dishes{
+    color:  rgb(230, 198, 59);
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+ }
+ .menu-1{
+width: 90%;
+ }
+ 
+ .menu-2{
+width: 90%;
+margin-right: 50px;
+ }
+
+ /*review-section*/
+
+ #review{
+     background-image: url("./images/reviews-banner.jpg");
+    min-height: 650px;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ #review-content{
+     width: 70%;
+     height: 450px;
+     text-align: center;
+     color: whitesmoke;
+     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+ }
+/* form-section*/
+.form-section{
+    background-image: url("./images/about-background.JPG");
+padding: 50px 0 50px 0;
+}
+
+.form-heading{
+font-size: 40px;
+color:  rgb(230, 198, 59);
+font-family: 'Yeseva One', cursive;
+}
+
+.input{
+    color:  rgb(230, 198, 59);
+    font-weight: bolder;   
+    font-size: 20px;
+    font-family: 'Yeseva One', cursive;
+}
+.form-data p{
+    width: 200px;
+}
+
+.form-data2 p{
+    width: 200px;
+}
+
+#booking{
+    width: 150px;
+    color: whitesmoke;
+    background-color:  rgb(230, 198, 59);
+    margin-left: 180px;
+    margin-top: 20px
+}
+
+ /* footer section*/
+ footer{
+     background: #000;
+    color: whitesmoke;
+    padding-top: 50px;
+ }
+ footer h4{
+     font-size: 25px;
+     padding-bottom: 15px;
+ }
